@@ -1,8 +1,15 @@
-package com.Patternprogramming;
+package com.pattern_programming;
 
 import java.util.Scanner;
 
-public class pattern1 {
+/*this code is print this pattern
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */
+public class patern1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
