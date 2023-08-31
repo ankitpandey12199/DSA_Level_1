@@ -1,4 +1,4 @@
-package com.chapter02functions;
+package com.chapter02_functions;
 
 import java.util.Scanner;
 
