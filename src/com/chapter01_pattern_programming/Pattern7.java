@@ -1,4 +1,4 @@
-package com.pattern_programming;
+package com.chapter01_pattern_programming;
 //this code is for patter 7 and 8 that is digonal pattern printing
 import java.util.Scanner;
 

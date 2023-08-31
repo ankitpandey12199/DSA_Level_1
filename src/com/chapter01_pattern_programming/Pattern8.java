@@ -1,4 +1,4 @@
-package com.pattern_programming;
+package com.chapter01_pattern_programming;
 
 import java.util.Scanner;
 

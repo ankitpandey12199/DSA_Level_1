@@ -1,4 +1,4 @@
-package com.pattern_programming;
+package com.chapter01_pattern_programming;
 /*
   this code prints this
         *
