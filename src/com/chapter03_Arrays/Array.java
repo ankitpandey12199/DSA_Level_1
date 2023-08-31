@@ -1,6 +1,4 @@
-package com.Chapter03_Arrays;
-
-import com.sun.security.jgss.GSSUtil;
+package com.chapter03_Arrays;
 
 import java.util.Scanner;
 
