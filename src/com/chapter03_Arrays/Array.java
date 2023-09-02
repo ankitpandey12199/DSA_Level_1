@@ -3,8 +3,8 @@ package com.chapter03_Arrays;
 import java.util.Scanner;
 
 public class Array {
-    private Scanner sc;
-    private int []arr;
+    private final Scanner sc;
+    private final int []arr;
     Array(int n)
     {
         arr=new int [n];
@@ -12,7 +12,7 @@ public class Array {
     }
     public void takeInput()
     {
-        for(int i=0;i<arr.length;i++)
+       for(int i=0;i<arr.length;i++)
         {
             arr[i]=sc.nextInt();
         }
@@ -49,5 +49,13 @@ public class Array {
             if(max<a)max=a;
         }
         return max;
+    }
+    public int length()
+    {
+        return arr.length;
+    }
+    public void updateAtIndex(int idx,int val)
+    {
+        arr[idx]=val;
     }
 }
